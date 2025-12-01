@@ -319,11 +319,16 @@ line-height: 0.9;
   position: absolute;
   top: 2vh;
   left: 2vw;
-  z-index: 10;
-  width: 5vw;
+  display: block;
+  width: 15%;
   height: auto;
   text-decoration: none;
   background-color: white;
+}
+.arrow1{
+  width: 3%;
+  height: auto;
+  display: block;
 }
 
 .backwhite{
