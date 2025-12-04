@@ -179,7 +179,7 @@ line-height: 0.9;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1vw;
-  padding: 1.5vh 1vw;
+  padding: 1.5vh 1vw 5vh;
   box-sizing: border-box;
 }
 
@@ -276,7 +276,7 @@ line-height: 0.9;
 }
 
 .projet7:hover img{
-  content: url('liens/vign/JPR\ VIGNETTE\ COUL.png');
+  content: url('liens/vign/VIGNETTE-AF-COUL.jpg');
 }
 
 .projet8:hover img{
@@ -335,3 +335,41 @@ line-height: 0.9;
   background-color: white;
 }
 /*_______________________________________*/
+
+.credits {
+  position: relative;
+}
+
+.about-text {
+  position: absolute;
+  top: 35%;        /* texte a propos */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  text-align: center;
+  color: white;
+  z-index: 2;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.about-text h2 {
+  font-size: 3vw;
+  color: yellow;
+  margin-bottom: 2vh;
+}
+
+.about-text p {
+  font-size: 1.3vw;
+  color: white;
+  line-height: 1.5;
+}
+
+#creations-top {
+  position: relative;
+  top: -8vh; /* hauteur balise créations */
+}
+
+#apropos-top {
+  position: relative;
+  top: 12vh; /* hauteurbalise */
+}
