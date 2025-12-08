@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-proj.css">
-    <title>Planches de gravures animalières</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style-proj.css">
+<title>Projet — Portfolio</title>
 </head>
 
 <body>
 
-<div class="photos" id="slider" href="">
-        <img src="liens/img-page-proj/Test-grav.jpg" alt="Photo grav 1">
-        <img src="liens/GRAVURE2.jpg" alt="Gravure 2">
-        <img src="liens/GRAVURE3.jpg" alt="Gravure 3">
-        <img src="liens/GRAVURE4.jpg" alt="Gravure 4">
-        <img src="liens/GRAVURE5.jpg" alt="Gravure 5">
+<!-- ===== BANDE 1 (Catégorie) ===== -->
+<header class="cat-banner">
+    <a href="index.html" class="back-btn">
+        <img src="liens/fond/croix-retour-J.svg" alt="Retour">
+    </a>
+    <div class="marquee">
+        <span>GRAVURE À LA POINTE SÈCHE — GRAVURE À LA POINTE SÈCHE — </span>
+        <span>GRAVURE À LA POINTE SÈCHE — GRAVURE À LA POINTE SÈCHE — </span>
+</div>
+</header>
+
+<!-- ===== BANDE 2 (Titre Projet) ===== -->
+<div class="title-banner">
+    <div class="marquee">
+        <span>PLANCHES ANIMALIÈRES EN GRAVURE — PLANCHES ANIMALIÈRES EN GRAVURE — </span>
+        <span>PLANCHES ANIMALIÈRES EN GRAVURE — PLANCHES ANIMALIÈRES EN GRAVURE — </span></div>
 </div>
 
-    <!-- txt -->
-    <div class="project-text">
-        <h1>Planches de gravures animalières</h1>
+<!-- ===== CONTENU EN GRID ===== -->
+<section class="proj-grid">
 
+    <!-- Texte -->
+    <div class="proj-text">
         <p>
-            Ici tu pourras rédiger la justification du projet, ton intention, ton processus
-            de création, les techniques utilisées, etc.
+            Cette série de trois gravures est inspirée des planches anatomiques du XIXe siècle. Elles ont été réalisées à la pointe sèche et colorisées à l'aquarelle.<br>
+            Au fil de la série, la reproduction de vraies espèces animales se fait plus rare, laissant place à l'invention de créatures fictives.<br>
+            Ces formes imaginées restent cohérentes, car elles s'appuient sur une logique d'adaptation à des habitats biens réels.
         </p>
     </div>
+
+    <!-- Slider -->
+    <div class="slider-css">
+
+        <!-- Radios -->
+        <input type="radio" name="slide" id="s1" checked>
+        <input type="radio" name="slide" id="s2">
+        <input type="radio" name="slide" id="s3">
+        <input type="radio" name="slide" id="s4">
+        <input type="radio" name="slide" id="s5">
+
+        <!-- Images -->
+        <div class="slides img-frame">
+            <img src="liens/img-page-proj/IMG-PROJ-GRAV-1.jpg" class="img1">
+            <img src="liens/img-page-proj/IMG-PROJ-GRAV-2.jpg" class="img2">
+            <img src="liens/img-page-proj/IMG-PROJ-GRAV-3.jpg" class="img3">
+            <img src="liens/img-page-proj/IMG-PROJ-GRAV-4.jpg" class="img4">
+            <img src="liens/img-page-proj/IMG-PROJ-GRAV-5.jpg" class="img5">
+        </div>
+
+        <!-- Flèches -->
+        <label for="s5" class="arrow s1 left"><img src="liens/fond/FLECHE-G.svg"></label>
+<label for="s2" class="arrow s1 right"><img src="liens/fond/FLECHE-D-2.svg"></label>
+
+<label for="s1" class="arrow s2 left"><img src="liens/fond/FLECHE-G.svg"></label>
+<label for="s3" class="arrow s2 right"><img src="liens/fond/FLECHE-D-2.svg"></label>
+
+<label for="s2" class="arrow s3 left"><img src="liens/fond/FLECHE-G.svg"></label>
+<label for="s4" class="arrow s3 right"><img src="liens/fond/FLECHE-D-2.svg"></label>
+
+<label for="s3" class="arrow s4 left"><img src="liens/fond/FLECHE-G.svg"></label>
+<label for="s5" class="arrow s4 right"><img src="liens/fond/FLECHE-D-2.svg"></label>
+
+<label for="s4" class="arrow s5 left"><img src="liens/fond/FLECHE-G.svg"></label>
+<label for="s1" class="arrow s5 right"><img src="liens/fond/FLECHE-D-2.svg"></label>
+
+    </div>
+
+</section>
 
 </body>
 </html>
