@@ -307,14 +307,21 @@ line-height: 0.9;
 }
 
 /*_______________________________________*/
-.CV1{
-  display: block;
-  position: relative;
-  width: 100%;
-  background: transparent;
-  height: auto;
-  overflow: visible;
+.cv-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
+
+.CV1 {
+  width: 65%;
+  height: auto;
+}
+.cv-page {
+  background-color: rgb(229, 255, 0);
+}
+
 .black-link{
   position: absolute;
   top: 2vh;
@@ -323,16 +330,16 @@ line-height: 0.9;
   width: 15%;
   height: auto;
   text-decoration: none;
-  background-color: white;
+  background-color: rgb(229, 255, 0);
 }
 .arrow1{
-  width: 3%;
+  width: 2.3%;
   height: auto;
   display: block;
 }
 
 .backwhite{
-  background-color: white;
+  background-color: rgb(229, 255, 0);
 }
 /*_______________________________________*/
 
