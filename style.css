@@ -349,14 +349,18 @@ line-height: 0.9;
 
 .about-text {
   position: absolute;
-  top: 35%;        /* texte a propos */
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
-  text-align: center;
-  color: white;
-  z-index: 2;
+  text-align: justify;
+
+  background-color: rgba(37, 0, 255, 0.85); 
+  padding: 3vh 3vw;
+  border-radius: 20px;
   font-family: 'Roboto Flex', sans-serif;
+
+  z-index: 2;
 }
 
 .about-text h2 {
