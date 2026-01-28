@@ -382,5 +382,5 @@ line-height: 0.9;
 
 #apropos-top {
   position: relative;
-  top: 12vh; /* hauteurbalise */
+  top: 0vh; /* hauteurbalise */
 }
