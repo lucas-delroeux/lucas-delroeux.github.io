@@ -156,6 +156,17 @@ line-height: 0.9;
     display: inline-block;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+.cat-banner,             /*overflow hidden et cat banner pour bloquer le scroll a    gauche*/
+.title-banner {
+  overflow: hidden;
+  width: 100%;
+}
+
+
+
 /* Animation infinie continue */
 @keyframes marquee-move {
     0% { transform: translateX(0); }
