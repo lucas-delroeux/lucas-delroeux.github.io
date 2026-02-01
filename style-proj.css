@@ -1,4 +1,6 @@
-
+:root {
+      overscroll-behavior: none;
+    }
 
 :root {
     --blue:#2500ff;

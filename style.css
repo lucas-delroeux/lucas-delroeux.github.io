@@ -88,6 +88,7 @@ line-height: 0.9;
   animation: scroll-left 50s linear infinite;
 }
 
+
 .scroll.reverse {
   animation: scroll-right 25s linear infinite;
 }
